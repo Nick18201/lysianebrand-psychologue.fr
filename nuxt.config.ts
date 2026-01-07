@@ -128,4 +128,7 @@ export default defineNuxtConfig({
   sitemap: {
     xsl: false,
   },
+  build: {
+    transpile: ["@motionone/vue"],
+  },
 });
