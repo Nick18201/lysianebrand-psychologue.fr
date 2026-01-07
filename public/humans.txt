@@ -1,0 +1,23 @@
+Lysiane Brand - https://www.margedemanoeuvre.fr/
+
+/* THANKS */
+Marianne Nicolas - https://in-august.com/
+Pantographe - https://pantographe.studio/
+Lucas Heymès - https://www.lucas.computer/
+
+Montserrat by Julieta Ulanovsky, Ale Paul, Carolina Giovagnoli, Andrés Torresi, Juan Pablo del Peral, Sol Matas, Jacques Le Bailly
+https://github.com/JulietaUla/Montserrat
+
+--
+
+Nuxt.js
+https://nuxtjs.org/
+
+Netlify
+https://netlify.app/
+
+Motion One
+https://motion.dev/
+
+Storyblok
+https://storyblok.com/

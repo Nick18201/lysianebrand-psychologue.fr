@@ -1,0 +1,3 @@
+Sitemap: https://margedemanoeuvre.fr/sitemap.xml
+User-agent: *
+Disallow:

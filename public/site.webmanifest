@@ -1,0 +1,21 @@
+{
+  "name": "Lysiane Brand",
+  "short_name": "lysiane-brand",
+  "description": "Website of Lysiane Brand",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FF5151",
+  "theme_color": "#FF5151",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
