@@ -84,6 +84,7 @@ header > div {
   max-width: 19rem;
   @apply block;
   @apply font-black text-24 leading-24 lowercase;
+  @apply text-royal-blue;
 
   span {
     display: block;
@@ -112,6 +113,7 @@ button {
   @apply font-black;
   @apply text-16 leading-16;
   @apply lowercase;
+  @apply text-royal-blue;
 }
 
 .menu-button {

@@ -109,7 +109,7 @@ useJsonld(
     <BlockContact>
       <template v-slot:card>
         <section class="wrapper bg-transparent my-43 xs:my-88">
-          <Card class="bg-white text-[#1617C6]">
+          <Card class="bg-white text-blue">
             <h2 class="h2 xs:text-center mb-28">Déroulement</h2>
             <p class="text text-center mb-28">
               La thérapie commence toujours par une ou plusieurs séances de préparation pour établir une relation de confiance et s'assurer que vous êtes prêt(e) à aborder les souvenirs difficiles en toute sécurité.<br/><br/>

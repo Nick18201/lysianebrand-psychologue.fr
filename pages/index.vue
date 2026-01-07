@@ -49,7 +49,7 @@ function scrollTo(e) {
           }"
           tag="div"
         >
-          <h1 class="h1 mt-22 w-[104%]">
+          <h1 class="h1 mt-22 w-[104%] text-royal-blue">
             Votre épanouissement personnel et professionnel
           </h1>
           <p class="leading-18 xs:text-20 xs:leading-28 my-28">

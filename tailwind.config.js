@@ -16,7 +16,7 @@ module.exports = {
 
       // Text/Secondary (Sage) -> NOW SLATE BLUE
       "sage-green": "hsl(var(--color-sage-green) / <alpha-value>)",
-      "blue": "#1D4E89", // Deep Blue
+      "blue": "#1617C6", // Deep Blue -> Royal Blue
       "royal-blue": "#1617C6",
       "cornflower-blue": "hsl(var(--color-sage-green) / <alpha-value>)",
 

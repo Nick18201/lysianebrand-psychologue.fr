@@ -216,7 +216,7 @@ useJsonld(
     <BlockContact>
       <template v-slot:card>
         <div class="wrapper -mt-[11rem] xs:-mt-[13rem] bg-transparent">
-          <Card class="bg-white text-[#1617C6]">
+          <Card class="bg-white text-blue">
             <h2 class="h2 text-center mb-15 xs:mb-30">Accessibilité</h2>
             <p class="max-w-[76rem] text text-center mb-22 xs:mb-46 mx-auto">
               Les séances s’adaptent à vos besoins : les bilans peuvent<br />

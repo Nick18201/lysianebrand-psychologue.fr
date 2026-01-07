@@ -87,7 +87,7 @@ const year = new Date().getFullYear();
 
 <style scoped lang="postcss">
 footer {
-  background-color: #1617C6; /* Royal Blue */
+  @apply bg-blue;
   padding-top: 4rem;
 }
 </style>

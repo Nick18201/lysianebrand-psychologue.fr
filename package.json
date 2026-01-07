@@ -15,14 +15,15 @@
     "@vue/eslint-config-prettier": "^7.0.0",
     "eslint": "^8.22.0",
     "eslint-plugin-vue": "^9.3.0",
-    "ipx": "^3.0.0",
     "feed": "^4.2.2",
+    "ipx": "^3.0.0",
     "netlify-cli": "17.11.0",
     "nuxt": "^3.9.0",
     "nuxt-gtag": "^1.2.1",
     "prettier": "^2.7.1"
   },
   "dependencies": {
+    "@motionone/vue": "^10.16.4",
     "@nuxt/image": "^1.1.0",
     "@nuxtjs/sitemap": "^5.1.1",
     "motion": "^10.14.2",
