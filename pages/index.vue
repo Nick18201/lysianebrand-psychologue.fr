@@ -82,46 +82,12 @@ function scrollTo(e) {
           class="grid lg:grid-cols-3 text-center justify-center gap-46 mt-22 xs:mt-72"
           v-observe
         >
-          <!-- EMDR CARD -->
+          <!-- Soutien Psychologique -->
           <li class="xs:max-w-[35rem] stagger">
             <NuxtLink
               class="no-link"
-              to="/emdr/"
-              title="Thérapie EMDR"
-            >
-              <svg
-                class="mx-auto mb-32 w-[8.8rem] h-[8.8rem] xs:w-[13.4rem] xs:h-[13.4rem]"
-                width="129"
-                height="138"
-                viewBox="0 0 129 138"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-               <!-- Using a generic placeholder path or reusing parts of existing refined for EMDR abstractly -->
-                <circle cx="64.5" cy="69" r="60" stroke="white" stroke-width="4"/>
-                <path d="M40 70 Q 64 40 90 70 T 140 70" stroke="white" stroke-width="4" fill="none" />
-                <path d="M30 70 Q 54 100 80 70" stroke="#FFF280" stroke-width="4" fill="none" />
-              </svg>
-            </NuxtLink>
-            <h2 class="h2">Thérapie EMDR</h2>
-            <p class="my-12 text-12 leading-16 xs:text-18 xs:leading-25">
-              L'EMDR est une thérapie reconnue pour surmonter les traumatismes et les blocages émotionnels.
-              Retrouvez votre sérénité grâce à cette approche ciblée.
-            </p>
-            <NuxtLink
-              class="arrow-link !text-white"
-              to="/emdr/"
-            >
-              <BaseLink>En savoir plus</BaseLink>
-            </NuxtLink>
-          </li>
-
-          <!-- PSYCHOLOGIE CARD -->
-          <li class="xs:max-w-[35rem] stagger stagger--delay-1">
-            <NuxtLink
-              class="no-link"
-              to="/psychologie/"
-              title="Séances de psychologie"
+              to="/psychologie-clinique/"
+              title="Soutien Psychologique"
             >
              <svg
                 class="mx-auto mb-32 w-[9rem] h-[9rem] xs:w-[13.4rem] xs:h-[13.4rem]"
@@ -146,19 +112,94 @@ function scrollTo(e) {
               </svg>
             </NuxtLink>
 
-            <h2 class="h2">Séances de psychologie</h2>
+            <h2 class="h2">Soutien Psychologique</h2>
             <p class="my-12 text-12 leading-16 xs:text-18 xs:leading-25">
-              Un espace d'écoute bienveillant pour traverser les épreuves (stress, burn-out, deuil...) et mieux vous comprendre.
+              Traverser les difficultés de la vie (anxiété, deuil, confiance en soi).
             </p>
             <NuxtLink
               class="arrow-link !text-white"
-              to="/psychologie/"
+              to="/psychologie-clinique/"
             >
               <BaseLink>En savoir plus</BaseLink>
             </NuxtLink>
           </li>
 
+           <!-- Souffrance au Travail -->
+          <li class="xs:max-w-[35rem] stagger stagger--delay-1">
+            <NuxtLink
+              class="no-link"
+              to="/souffrance-travail-nantes/"
+              title="Souffrance au Travail"
+            >
+               <!-- Reusing Psychologie SVG but flipped/modified or just same for now as placeholder for mental health work -->
+               <svg
+                class="mx-auto mb-32 w-[9rem] h-[9rem] xs:w-[13.4rem] xs:h-[13.4rem]"
+                width="136"
+                height="136"
+                viewBox="0 0 136 136"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+               <!-- Same paths as Psychologie -->
+                <path
+                  d="M85.1 50.6 54 19.4 68 5l31.2 31.4 2.2-2.3L68 .9 34.6 34.3l2.2 2.2 14.8-15L83 52.7l2.1-2.1Z"
+                  fill="white"
+                />
+                <path
+                  d="m118.5 51.3-2.2 2.1 15 15-30.6 30.5-14.1-14.1 14.8-15-2.2-2.1-17 17L98.4 101l-14 14.3L53 84l-2.2 2.1L82 117.3l-14 14.2-47-46.8 30.5-30.5 15 14.8 2.1-2.1-17-17.1L19 82.5 4.8 68.4l15-15-2.2-2.1-17.1 17L68 136l67.6-67.5-17.1-17.1Z"
+                  fill="white"
+                />
+                <!-- Different color accent for differentiation -->
+                <path
+                  d="M62.4 55c-5.8 2-9.8 9.6-8 16.4C57 80.2 69.9 83 75 79.9c8.8-5.5 9.7-15.9 1.5-22.5-3.1-2.6-10-3.8-14-2.4Z"
+                  fill="#FFF280"
+                />
+              </svg>
+            </NuxtLink>
 
+            <h2 class="h2">Souffrance au Travail</h2>
+            <p class="my-12 text-12 leading-16 xs:text-18 xs:leading-25">
+              Burn-out, harcèlement, perte de sens. Se reconstruire professionnellement.
+            </p>
+            <NuxtLink
+              class="arrow-link !text-white"
+              to="/souffrance-travail-nantes/"
+            >
+              <BaseLink>En savoir plus</BaseLink>
+            </NuxtLink>
+          </li>
+
+          <!-- EMDR CARD -->
+          <li class="xs:max-w-[35rem] stagger stagger--delay-2">
+            <NuxtLink
+              class="no-link"
+              to="/therapie-emdr/"
+              title="Thérapie EMDR"
+            >
+              <svg
+                class="mx-auto mb-32 w-[8.8rem] h-[8.8rem] xs:w-[13.4rem] xs:h-[13.4rem]"
+                width="129"
+                height="138"
+                viewBox="0 0 129 138"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="64.5" cy="69" r="60" stroke="white" stroke-width="4"/>
+                <path d="M40 70 Q 64 40 90 70 T 140 70" stroke="white" stroke-width="4" fill="none" />
+                <path d="M30 70 Q 54 100 80 70" stroke="#FFF280" stroke-width="4" fill="none" />
+              </svg>
+            </NuxtLink>
+            <h2 class="h2">Thérapie EMDR</h2>
+            <p class="my-12 text-12 leading-16 xs:text-18 xs:leading-25">
+              Se libérer des traumatismes et des blocages émotionnels profonds.
+            </p>
+            <NuxtLink
+              class="arrow-link !text-white"
+              to="/therapie-emdr/"
+            >
+              <BaseLink>En savoir plus</BaseLink>
+            </NuxtLink>
+          </li>
         </ul>
       </div>
     </section>

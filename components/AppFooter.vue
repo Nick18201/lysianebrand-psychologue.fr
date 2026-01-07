@@ -43,12 +43,17 @@
           <nav>
             <ul class="flex flex-col gap-12 list-none p-0 m-0">
               <li>
-                <NuxtLink to="/psychologie/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
-                  <span class="opacity-50">›</span> L'approche (Psychologie)
+                <NuxtLink to="/psychologie-clinique/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
+                  <span class="opacity-50">›</span> Psychologie Clinique
                 </NuxtLink>
               </li>
               <li>
-                <NuxtLink to="/emdr/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
+                <NuxtLink to="/souffrance-travail-nantes/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
+                  <span class="opacity-50">›</span> Souffrance au Travail
+                </NuxtLink>
+              </li>
+              <li>
+                <NuxtLink to="/therapie-emdr/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
                   <span class="opacity-50">›</span> Thérapie EMDR
                 </NuxtLink>
               </li>

@@ -13,13 +13,19 @@
       <nav>
         <ul>
           <li>
-            <NuxtLink class="link" to="/psychologie/" @click="close"
-              >Psychologie</NuxtLink
+            <NuxtLink class="link" to="/psychologie-clinique/" @click="close"
+              >Psychologie Clinique</NuxtLink
             >
           </li>
-
           <li>
-            <NuxtLink class="link" to="/emdr/" @click="close">EMDR</NuxtLink>
+            <NuxtLink class="link" to="/souffrance-travail-nantes/" @click="close"
+              >Souffrance au Travail</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink class="link" to="/therapie-emdr/" @click="close"
+              >Thérapie EMDR</NuxtLink
+            >
           </li>
           <li>
             <NuxtLink class="link" to="/qui-suis-je/" @click="close"
