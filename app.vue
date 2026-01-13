@@ -39,7 +39,7 @@ useJsonld(() => ({
       inLanguage: "fr",
     },
     {
-      "@type": "MedicalBusiness",
+      "@type": "Psychologist",
       image: "https://lysianebrand.fr/social_new.jpg",
       logo: "https://lysianebrand.fr/apple-touch-icon.png",
       name: "Lysiane Brand",

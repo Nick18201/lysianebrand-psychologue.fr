@@ -3,6 +3,7 @@ const isProduction = process.env.NODE_ENV === "production";
 // console.debug("STORYBLOK IS", STORYBLOK_ACCESS_TOKEN);
 export default defineNuxtConfig({
   runtimeConfig: {},
+  compatibilityDate: "2026-01-13",
   app: {
     head: {
       htmlAttrs: {
@@ -107,6 +108,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/sitemap",
+    "@nuxtjs/robots",
     "nuxt-jsonld",
     "@nuxt/image",
     "nuxt-gtag",
@@ -125,9 +127,7 @@ export default defineNuxtConfig({
     name: "Lysiane Brand",
     trailingSlash: true,
   },
-  sitemap: {
-    xsl: false,
-  },
+
   build: {
     transpile: ["@motionone/vue"],
   },
