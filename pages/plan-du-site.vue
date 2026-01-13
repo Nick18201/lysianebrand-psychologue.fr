@@ -10,8 +10,8 @@
 
     <section class="bg-white">
       <div class="px-72 wrapper py-48 xs:py-88">
-        <h2 class="h2 mb-20">Pages</h2>
-        <ul class="mb-28 space-y-10">
+        <h2 class="h2 mb-20 text-royal-blue">Pages</h2>
+        <ul class="mb-28 space-y-10 text-royal-blue">
           <li>
             <NuxtLink class="inline-link" to="/">Accueil</NuxtLink>
           </li>

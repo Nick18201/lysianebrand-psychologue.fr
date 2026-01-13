@@ -52,7 +52,7 @@ function scrollTo(e) {
           <h1 class="h1 mt-22 w-[104%] text-royal-blue">
             Votre épanouissement personnel et professionnel
           </h1>
-          <p class="leading-18 xs:text-20 xs:leading-28 my-28">
+          <p class="leading-18 xs:text-20 xs:leading-28 my-28 text-royal-blue">
             Je suis Lysiane Brand, psychologue à la Chapelle-sur-Erdre.<br />
             Je vous accompagne en séances de psychologie et EMDR.
           </p>
@@ -97,17 +97,28 @@ function scrollTo(e) {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
+                <!-- Central Petal -->
                 <path
-                  d="M85.1 50.6 54 19.4 68 5l31.2 31.4 2.2-2.3L68 .9 34.6 34.3l2.2 2.2 14.8-15L83 52.7l2.1-2.1Z"
-                  fill="white"
+                  d="M68 118C68 118 92 82 92 50C92 28 80 18 68 18C56 18 44 28 44 50C44 82 68 118 68 118Z"
+                  stroke="#FFF280"
+                  stroke-width="4"
+                  stroke-linejoin="round"
                 />
+                <!-- Left Petal -->
                 <path
-                  d="m118.5 51.3-2.2 2.1 15 15-30.6 30.5-14.1-14.1 14.8-15-2.2-2.1-17 17L98.4 101l-14 14.3L53 84l-2.2 2.1L82 117.3l-14 14.2-47-46.8 30.5-30.5 15 14.8 2.1-2.1-17-17.1L19 82.5 4.8 68.4l15-15-2.2-2.1-17.1 17L68 136l67.6-67.5-17.1-17.1Z"
-                  fill="white"
+                  d="M68 118C68 118 28 94 18 60C12 44 24 32 40 38"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
+                <!-- Right Petal -->
                 <path
-                  d="M62.4 55c-5.8 2-9.8 9.6-8 16.4C57 80.2 69.9 83 75 79.9c8.8-5.5 9.7-15.9 1.5-22.5-3.1-2.6-10-3.8-14-2.4Z"
-                  fill="#FFF280"
+                  d="M68 118C68 118 108 94 118 60C124 44 112 32 96 38"
+                  stroke="white"
+                  stroke-width="4"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
                 />
               </svg>
             </NuxtLink>
@@ -140,20 +151,14 @@ function scrollTo(e) {
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
               >
-               <!-- Same paths as Psychologie -->
-                <path
-                  d="M85.1 50.6 54 19.4 68 5l31.2 31.4 2.2-2.3L68 .9 34.6 34.3l2.2 2.2 14.8-15L83 52.7l2.1-2.1Z"
-                  fill="white"
-                />
-                <path
-                  d="m118.5 51.3-2.2 2.1 15 15-30.6 30.5-14.1-14.1 14.8-15-2.2-2.1-17 17L98.4 101l-14 14.3L53 84l-2.2 2.1L82 117.3l-14 14.2-47-46.8 30.5-30.5 15 14.8 2.1-2.1-17-17.1L19 82.5 4.8 68.4l15-15-2.2-2.1-17.1 17L68 136l67.6-67.5-17.1-17.1Z"
-                  fill="white"
-                />
-                <!-- Different color accent for differentiation -->
-                <path
-                  d="M62.4 55c-5.8 2-9.8 9.6-8 16.4C57 80.2 69.9 83 75 79.9c8.8-5.5 9.7-15.9 1.5-22.5-3.1-2.6-10-3.8-14-2.4Z"
-                  fill="#FFF280"
-                />
+                <!-- Outer Circle -->
+                <circle cx="68" cy="68" r="54" stroke="white" stroke-width="4" />
+                <!-- Needle (Diamond shape) - Yellow Highlight -->
+                <path d="M68 28L80 68L68 108L56 68L68 28Z" stroke="#FFF280" stroke-width="4" stroke-linejoin="round" />
+                <!-- Center Dot -->
+                <circle cx="68" cy="68" r="4" fill="white" />
+                <!-- Cardinal Marks -->
+                <path d="M68 14V22 M68 114V122 M14 68H22 M114 68H122" stroke="white" stroke-width="4" stroke-linecap="round" />
               </svg>
             </NuxtLink>
 

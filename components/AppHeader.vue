@@ -39,7 +39,7 @@
           </li>
           <ClientOnly>
             <li>
-              <ContrastModeButton />
+              <TextSizeButton />
             </li>
           </ClientOnly>
         </ul>
@@ -175,7 +175,7 @@ nav li:last-of-type {
 }
 
 header.is-open {
-  @apply bg-mint-cream;
+  @apply bg-white;
   z-index: 99;
 
   nav {
