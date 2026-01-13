@@ -1,9 +1,7 @@
-Lysiane Brand - https://www.margedemanoeuvre.fr/
+Lysiane Brand - https://www.lysianebrand-psychologue.fr/
 
 /* THANKS */
-Marianne Nicolas - https://in-august.com/
-Pantographe - https://pantographe.studio/
-Lucas Heymès - https://www.lucas.computer/
+Nicolas Blum Ferracci
 
 Montserrat by Julieta Ulanovsky, Ale Paul, Carolina Giovagnoli, Andrés Torresi, Juan Pablo del Peral, Sol Matas, Jacques Le Bailly
 https://github.com/JulietaUla/Montserrat

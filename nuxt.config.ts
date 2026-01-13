@@ -32,7 +32,7 @@ export default defineNuxtConfig({
         {
           property: "og:url",
           content: isProduction
-            ? "https://lysianebrand.fr/"
+            ? "https://lysianebrand-psychologue.fr/"
             : "https://lysiane-brand-dev.netlify.app/",
         },
         {
@@ -46,7 +46,7 @@ export default defineNuxtConfig({
         {
           property: "og:image",
           content: isProduction
-            ? "https://lysianebrand.fr/social_new.jpg"
+            ? "https://lysianebrand-psychologue.fr/social_new.jpg"
             : "https://lysiane-brand-dev.netlify.app/social_new.jpg",
         },
         {
@@ -69,7 +69,7 @@ export default defineNuxtConfig({
         {
           name: "twitter:image",
           content: isProduction
-            ? "https://lysianebrand.fr/social_new.jpg"
+            ? "https://lysianebrand-psychologue.fr/social_new.jpg"
             : "https://lysiane-brand-dev.netlify.app/social_new.jpg",
         },
       ],
@@ -86,7 +86,7 @@ export default defineNuxtConfig({
         {
           rel: "author",
           href: isProduction
-            ? "https://lysianebrand.fr/humans.txt"
+            ? "https://lysianebrand-psychologue.fr/humans.txt"
             : "https://lysiane-brand-dev.netlify.app/humans.txt",
           type: "text/plain",
         },
@@ -102,7 +102,7 @@ export default defineNuxtConfig({
   nitro: {
     // render server-side routes as static content
     prerender: {
-      routes: [],
+      routes: ["/atom.xml"],
     },
   },
   modules: [
@@ -123,7 +123,7 @@ export default defineNuxtConfig({
     // initialConsent: false,
   },
   site: {
-    url: "https://lysianebrand.fr",
+    url: "https://lysianebrand-psychologue.fr",
     name: "Lysiane Brand",
     trailingSlash: true,
   },

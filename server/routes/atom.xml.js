@@ -1,19 +1,36 @@
 import { Feed } from 'feed';
 
-const BASE_URL = "https://margedemanoeuvre.fr/"
+const BASE_URL = "https://lysianebrand-psychologue.fr/"
 const AUTHOR_NAME = "Lysiane Brand"
 
-async function fetchStories(version) {
-  const params = new URLSearchParams({
-    token: process.env.STORYBLOK_ACCESS_TOKEN,
-    starts_with: 'blog/',
-    version: version
-  })
-  const endpoint = `https://api.storyblok.com/v2/cdn/stories?${params.toString()}`
-  const response = await fetch(endpoint, { headers: { 'Content-Type': 'application/json', "Accept": 'application/json' } })
-  const data = await response.json()
-  return data.stories
-}
+// Static definition of site pages usually important for a feed (or sitemap)
+const pages = [
+  {
+    title: "Psychologie Clinique",
+    slug: "psychologie",
+    description: "Séances de psychologie clinique pour adultes à La Chapelle-sur-Erdre."
+  },
+  {
+    title: "Thérapie EMDR",
+    slug: "therapie-emdr",
+    description: "Thérapie EMDR pour le traitement des traumatismes et perturbations émotionnelles."
+  },
+  {
+    title: "Souffrance au Travail",
+    slug: "souffrance-travail-nantes",
+    description: "Accompagnement spécialisé pour la souffrance au travail et le burn-out."
+  },
+  {
+    title: "Qui suis-je ?",
+    slug: "qui-suis-je",
+    description: "Présentation de Lysiane Brand, psychologue clinicienne."
+  },
+  {
+    title: "Contact",
+    slug: "contact",
+    description: "Prendre rendez-vous ou contacter le cabinet."
+  }
+]
 
 function fqdn(url) {
   return `${BASE_URL}${url}`
@@ -21,17 +38,17 @@ function fqdn(url) {
 
 export default defineEventHandler(async (event) => {
   const feed = new Feed({
-    title: "margedemanoeuvre.fr",
-    description: "Blog de Marge de manœuvre",
+    title: "Lysiane Brand - Psychologue",
+    description: "Actualités et pages du cabinet de psychologie de Lysiane Brand",
 
     id: BASE_URL,
     link: BASE_URL,
     language: "fr",
-    image: `${BASE_URL}/social_new.jpg`,
-    favicon: `${BASE_URL}/favicon.ico`,
-    copyright: `All rights reserved ${new Date().getFullYear()}, ${AUTHOR_NAME}`,
+    image: `${BASE_URL}social_new.jpg`,
+    favicon: `${BASE_URL}favicon.ico`,
+    copyright: `Tous droits réservés ${new Date().getFullYear()}, ${AUTHOR_NAME}`,
     updated: new Date(),
-    generator: "Nuxt static site generation + Feed for Node.js",
+    generator: "Nuxt static site generation",
     feedLinks: {
       atom: `${BASE_URL}atom.xml`
     },
@@ -40,22 +57,19 @@ export default defineEventHandler(async (event) => {
     }
   });
 
-  const config = useRuntimeConfig();
-  const stories = await fetchStories(config.storyblokVersion)
-
-  stories.forEach((article) => {
+  pages.forEach((page) => {
     feed.addItem({
-      title: article.name ? article.name : "Missing Title",
-      id: fqdn(article.full_slug),
-      link: `${BASE_URL}/${article.full_slug}`,
-      description: article.content.description,
+      title: page.title,
+      id: fqdn(page.slug),
+      link: `${BASE_URL}${page.slug}`,
+      description: page.description,
       author: [
         {
           name: AUTHOR_NAME,
         },
       ],
-      date: new Date(article.first_published_at),
-      image: article.content.cover.filename ? `${BASE_URL}/${article.content.cover.filename}` : undefined
+      date: new Date(), // Static pages are "current"
+      // image: ... if we had specific images for each page
     });
   });
 
