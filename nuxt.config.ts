@@ -99,6 +99,9 @@ export default defineNuxtConfig({
     "/vie-pro/": { redirect: "/outil-de-personnalite-mbti/" },
   },
   image: {},
+  robots: {
+    sitemap: "https://lysianebrand-psychologue.fr/sitemap.xml",
+  },
   nitro: {
     // render server-side routes as static content
     prerender: {

@@ -16,12 +16,7 @@ useHead({
         "Psychologue du travail & Coach à Nantes Nord (La Chapelle). Double expertise : Bilan de compétences CPF et Thérapie (Burn-out). Retrouvez votre marge de manœuvre.",
     },
   ],
-  link: [
-    {
-      rel: "canonical",
-      href: canonicalize(route.path),
-    },
-  ],
+
 });
 
 function scrollTo(e) {

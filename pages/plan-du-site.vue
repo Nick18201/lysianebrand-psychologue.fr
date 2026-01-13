@@ -83,12 +83,7 @@ useHead({
         "Retrouvez facilement toutes les pages et articles du site en un seul endroit",
     },
   ],
-  link: [
-    {
-      rel: "canonical",
-      href: canonicalize(route.path),
-    },
-  ],
+
 });
 useJsonld(
   generateJsonLd({

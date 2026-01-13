@@ -27,12 +27,7 @@ useHead({
       content: canonicalize(route.path),
     },
   ],
-  link: [
-    {
-      rel: "canonical",
-      href: canonicalize(route.path),
-    },
-  ],
+
 });
 useJsonld(
   generateJsonLd({

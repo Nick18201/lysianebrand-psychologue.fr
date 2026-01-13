@@ -11,6 +11,7 @@
 
 <script setup>
 import { canonicalize, generateJsonLd } from "@/lib/utils";
+const route = useRoute();
 
 useHead({
   titleTemplate: (titleChunk) => {
@@ -22,7 +23,7 @@ useHead({
   link: [
     {
       rel: "canonical",
-      href: canonicalize("/"),
+      href: canonicalize(route.path),
     },
   ],
 });
@@ -32,18 +33,18 @@ useJsonld(() => ({
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://lysianebrand.fr/#website",
-      url: "https://lysianebrand.fr/",
+      "@id": "https://lysianebrand-psychologue.fr/#website",
+      url: "https://lysianebrand-psychologue.fr/",
       name: "Lysiane Brand",
       description: "Psychologue à la Chapelle sur Erdre",
       inLanguage: "fr",
     },
     {
       "@type": "Psychologist",
-      image: "https://lysianebrand.fr/social_new.jpg",
-      logo: "https://lysianebrand.fr/apple-touch-icon.png",
+      image: "https://lysianebrand-psychologue.fr/social_new.jpg",
+      logo: "https://lysianebrand-psychologue.fr/apple-touch-icon.png",
       name: "Lysiane Brand",
-      url: "https://lysianebrand.fr",
+      url: "https://lysianebrand-psychologue.fr",
       // sameAs: ["https://www.instagram.com/marge_de_manoeuvre.psy/"], // Removing or updating if new one exists, better comment out for now
       address: {
         "@type": "PostalAddress",
