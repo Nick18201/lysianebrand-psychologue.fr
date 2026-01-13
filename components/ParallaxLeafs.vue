@@ -41,14 +41,14 @@
     @apply top-6;
 
     svg {
-      @apply text-cornflower-blue;
+      color: #6B6BFC;
     }
   }
   &--bottom {
     right: -12rem;
     bottom: -11rem;
     svg {
-      @apply text-blue;
+      color: #6B6BFC;
     }
   }
 }
@@ -58,7 +58,7 @@
   @apply absolute;
 
   svg {
-    @apply text-blue;
+    color: #FF3939;
   }
 
   &--top {

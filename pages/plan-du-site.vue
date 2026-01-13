@@ -27,7 +27,10 @@
             >
           </li>
           <li>
-            <NuxtLink class="inline-link" to="/emdr/">Thérapie EMDR</NuxtLink>
+            <NuxtLink class="inline-link" to="/therapie-emdr/">Thérapie EMDR</NuxtLink>
+          </li>
+          <li>
+            <NuxtLink class="inline-link" to="/souffrance-travail-nantes/">Souffrance au travail</NuxtLink>
           </li>
 
 

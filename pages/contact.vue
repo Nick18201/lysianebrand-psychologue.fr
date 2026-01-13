@@ -52,7 +52,7 @@ useJsonld(
 
 <template>
   <article>
-    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem]">
+    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem] text-blue">
       <ParallaxLeafsAlternate />
       <div class="wrapper py-48 xs:py-88 xs:flex xs:gap-94 xs:space-between">
         <div>

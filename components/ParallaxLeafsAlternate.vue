@@ -42,14 +42,14 @@
     @apply top-6;
 
     svg {
-      @apply text-cornflower-blue;
+      color: #6B6BFC;
     }
   }
   &--bottom {
     left: -12rem;
     bottom: -11rem;
     svg {
-      @apply text-blue;
+      color: #6B6BFC;
     }
   }
 }
@@ -57,16 +57,19 @@
 .twig {
   z-index: 0;
   @apply absolute;
-  @apply hidden xs:block;
 
   svg {
     transform: scale3d(-1, 1, 1);
-    @apply text-blue;
+    color: #FF3939;
   }
 
   &--top {
-    top: 36rem;
+    top: 2rem;
     right: 2rem;
+
+    @screen xs {
+      top: 36rem;
+    }
 
     @screen wide {
       right: 25rem;
@@ -79,8 +82,13 @@
   }
 
   &--bottom {
-    left: 16rem;
-    bottom: 5rem;
+    left: 2rem;
+    bottom: 0rem;
+
+    @screen xs {
+       left: 16rem;
+       bottom: 5rem;
+    }
 
     @screen wide {
       bottom: 30rem;

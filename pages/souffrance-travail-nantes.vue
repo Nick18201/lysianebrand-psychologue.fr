@@ -49,11 +49,11 @@ useJsonld(
 
 <template>
   <article>
-    <section class="bg-pippin dots-pippin texture-pippin min-h-[40rem]">
-      <ParallaxLeafsAlternate />
-      <div class="wrapper py-48 xs:py-88 xs:flex xs:gap-94">
+    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem] text-blue">
+      <ParallaxLeafs />
+      <div class="relative z-10 wrapper py-48 xs:py-88 xs:flex xs:gap-94">
         <h1 class="h1 mb-28">Accompagnement de la Souffrance au Travail</h1>
-         <div>
+         <div class="bg-white rounded-md p-28 xs:p-40 show-from-bottom">
           <p class="text-14 leading-18 xs:text-20 xs:leading-28 mb-28">
             Le travail ne devrait pas être un lieu de souffrance. Je vous aide à comprendre ce qui se joue pour vous, à prendre du recul et à vous reconstruire professionnellement.
           </p>

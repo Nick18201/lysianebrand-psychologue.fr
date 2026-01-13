@@ -43,8 +43,8 @@
           <nav>
             <ul class="flex flex-col gap-12 list-none p-0 m-0">
               <li>
-                <NuxtLink to="/psychologie-clinique/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
-                  <span class="opacity-50">›</span> Psychologie Clinique
+                <NuxtLink to="/psychologie/" class="text-14 hover:opacity-80 transition-opacity flex items-center gap-8">
+                  <span class="opacity-50">›</span> Psychologie
                 </NuxtLink>
               </li>
               <li>

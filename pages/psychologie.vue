@@ -4,7 +4,7 @@ import { DOCTOLIB_URL } from "~/app/constants";
 const route = useRoute();
 
 useHead({
-  title: "Psychologue La Chapelle-sur-Erdre - Burn-out & Souffrance au travail",
+  title: "Psychologie - La Chapelle-sur-Erdre - Burn-out & Souffrance au travail",
   meta: [
     {
       name: "description",
@@ -14,7 +14,7 @@ useHead({
     {
       property: "og:title",
       content: seoTitle(
-        "Psychologue La Chapelle-sur-Erdre - Burn-out & Souffrance au travail"
+        "Psychologie - La Chapelle-sur-Erdre - Burn-out & Souffrance au travail"
       ),
     },
     {
@@ -49,11 +49,11 @@ useJsonld(
 
 <template>
   <article>
-    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem]">
+    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem] text-blue">
       <ParallaxLeafsAlternate />
       <div class="wrapper py-48 xs:py-88 xs:flex xs:gap-94">
         <h1 class="h1 mb-28">Séances de psychologie</h1>
-        <div>
+        <div class="bg-white rounded-md p-28 xs:p-40 show-from-bottom">
           <p class="text-14 leading-18 xs:text-20 xs:leading-28 mb-28">
             Nous vivons parfois des situations difficiles que nous avons du mal
             à surmonter <strong>seul·es</strong>. Nous pouvons par moment
@@ -63,7 +63,7 @@ useJsonld(
             mal-être sont autant de symptômes qui nous alertent sur le besoin de
             prendre <strong>soin de notre santé mentale</strong>.
           </p>
-          <p class="text-14 leading-18 xs:text-20 xs:leading-28 mb-28">
+          <p class="text-14 leading-18 xs:text-20 xs:leading-28 mb-0">
             Je vous accueille dans mon cabinet de psychologie à la
             <a
               class="font-bold inline-link"
@@ -224,7 +224,7 @@ useJsonld(
       </div>
     </section>
 
-    <section class="bg-white">
+    <section class="bg-white text-blue">
       <div class="px-72 wrapper py-48 xs:py-88">
         <div class="max-w-[68rem] mbti mx-auto mt-48">
           <h2 class="h3">Mes engagements</h2>

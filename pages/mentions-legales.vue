@@ -1,13 +1,13 @@
 <template>
   <article>
-    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem]">
+    <section class="bg-pipin dots-pipin texture-pipin min-h-[40rem] text-blue">
       <ParallaxLeafsAlternate />
       <div class="wrapper py-48 xs:py-88 xs:flex xs:gap-94">
         <h1 class="h1">Mentions légales</h1>
       </div>
     </section>
 
-    <section class="bg-white">
+    <section class="bg-white text-blue">
       <div class="px-72 wrapper py-48 xs:py-88">
         <ul>
           <li class="">

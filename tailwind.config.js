@@ -18,6 +18,8 @@ module.exports = {
       "sage-green": "hsl(var(--color-sage-green) / <alpha-value>)",
       "blue": "#1617C6", // Deep Blue -> Royal Blue
       "royal-blue": "#1617C6",
+      "leaf-purple": "#6B6BFC",
+      "leaf-red": "#FF3939",
       "cornflower-blue": "hsl(var(--color-sage-green) / <alpha-value>)",
 
       // Secondary / Pastels -> BLUE VARIANTS

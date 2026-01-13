@@ -86,7 +86,7 @@ function scrollTo(e) {
           <li class="xs:max-w-[35rem] stagger">
             <NuxtLink
               class="no-link"
-              to="/psychologie-clinique/"
+              to="/psychologie/"
               title="Soutien Psychologique"
             >
              <svg
@@ -118,7 +118,7 @@ function scrollTo(e) {
             </p>
             <NuxtLink
               class="arrow-link !text-white"
-              to="/psychologie-clinique/"
+              to="/psychologie/"
             >
               <BaseLink>En savoir plus</BaseLink>
             </NuxtLink>

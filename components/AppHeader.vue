@@ -13,8 +13,8 @@
       <nav>
         <ul>
           <li>
-            <NuxtLink class="link" to="/psychologie-clinique/" @click="close"
-              >Psychologie Clinique</NuxtLink
+            <NuxtLink class="link" to="/psychologie/" @click="close"
+              >Psychologie</NuxtLink
             >
           </li>
           <li>
